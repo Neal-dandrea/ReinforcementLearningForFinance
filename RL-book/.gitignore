@@ -1,0 +1,32 @@
+# Our PDFs are all generated
+*.pdf
+
+# Emacs files
+*~
+
+# macOS
+.DS_Store
+
+# Python
+.venv
+.mypy_cache
+__pycache__
+.ipynb_checkpoints
+*.pyc
+*.egg-info
+
+# LaTeX files
+book/*/*.tex
+book.tex
+*.tex
+*.aux
+*.dvi
+*.log
+*.out.ps
+*.idx
+*.ind
+*.ilg
+latex/Alon*
+latex/epigrafica.sty
+lgrenc.def
+
